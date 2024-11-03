@@ -14,6 +14,14 @@ function sortear(){
     
    }
 
+   function getRandomArbitrary(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  function obterNumeroAleatorio(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
 for (let i = 0; i < quantidade; i++) {
     numero = obterNumeroAleatorio(de, ate);
     
